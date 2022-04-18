@@ -30,15 +30,15 @@ class _TestState extends State<Test> {
                 width: 180,
                 decoration: const BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage("assets/images/noBG.png"),
+                    image: AssetImage("assets/noBG.png"),
                   ),
                 ),
               ),
             ),
             Positioned(
                 top: 200,
-                left: 50,
-                right: 49,
+                left: 70,
+                right:80,
                 child: ToggleSwitch(
                   activeFgColor: Colors.black,
                   activeBgColor: const [Colors.white, Colors.white],
@@ -107,7 +107,7 @@ class _TestState extends State<Test> {
                       gradient: const LinearGradient(
                           colors: [Colors.orangeAccent, Colors.pinkAccent]),
                       borderRadius: BorderRadius.circular(5),
-                      color: Colors.deepOrangeAccent,
+                      //color: Colors.deepOrangeAccent,
                     ),
                     child: const Center(
                       child: Text(
@@ -119,7 +119,7 @@ class _TestState extends State<Test> {
                 )),
             Positioned(
                 top: 460,
-                left: 130,
+                left: 150,
                 right: 110,
                 child: InkWell(
                   onTap: () {},
@@ -135,13 +135,13 @@ class _TestState extends State<Test> {
             const Positioned(
                 top: 510,
                 left: 50,
-                right: 200,
+                right: 230,
                 child: Divider(
                   color: Colors.white,
                 )),
             const Positioned(
                 top: 510,
-                left: 175,
+                left: 195,
                 right: 100,
                 child: Text(
                   "Or",
@@ -149,7 +149,7 @@ class _TestState extends State<Test> {
                 )),
             const Positioned(
                 top: 510,
-                left: 200,
+                left: 220,
                 right: 50,
                 child: Divider(
                   color: Colors.white,
